@@ -1,8 +1,8 @@
 #include <iostream>
-
+#include "../include/SystemFiles.hpp"
 
 int main(void)
 {
-    std::cout << "Hello World";
+    Windows win(800, 700, "Welcome to Pig Bros !");
     return (0);
 }
