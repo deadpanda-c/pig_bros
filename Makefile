@@ -14,9 +14,9 @@ all:	$(OBJ)
 	$(CXX) -o $(NAME) $(OBJ)   $(LFLAG)  $(CFLAGS) -I./include
 
 clean:
-	rm -rf *.o *~ *.swp *.vgcore*
+	rm -rf src/*.o src/*~ src/*.swp *.vgcore*
 
-fclean:
+fclean: clean
 	rm -rf $(NAME)
 
 re: fclean all
