@@ -1,0 +1,10 @@
+Makefile
+src/
+--- menu/
+--- game/
+include/
+assets/
+--- menu/
+--- game/
+--- music/
+--- fonts/
